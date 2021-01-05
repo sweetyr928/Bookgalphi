@@ -1,0 +1,2 @@
+include ':app', ':acssmc-1.1.5', ':acsbt-1.0.1'
+rootProject.name='NFC Application'

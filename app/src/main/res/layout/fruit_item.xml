@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/bookimage"
+        android:layout_width="100dp"
+        android:layout_height="68dp"
+        android:layout_gravity="left"
+        android:layout_marginTop="5dp"
+        app:srcCompat="@drawable/c" />
+
+    <TextView
+        android:id="@+id/bookname"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="10dp"
+        android:gravity="start"
+        android:text="TextView"
+        android:textColor="@android:color/background_dark"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/chooseButton"
+        android:layout_width="79dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:layout_marginRight="5dp"
+        android:layout_weight="1"
+        android:background="@drawable/mybutton"
+        android:text="선택"
+        android:textColor="@android:color/background_light" />
+
+</LinearLayout>
