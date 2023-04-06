@@ -25,7 +25,7 @@
 - NFC 리더기와 스마트폰을 블루투스로 연결하여 도서의 블루투스 태그 인식
 - php를 사용해 mySQL과 어플리케이션 연결하여 회원 / 도서 데이터 관리
 
-## 사용 스택
+## 기술 스택
 
 ![image](https://user-images.githubusercontent.com/39157466/229670049-3b1b8aa9-2ada-430c-9a5e-7aba353f2339.png)
 
